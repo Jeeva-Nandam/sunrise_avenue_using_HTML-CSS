@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="flat.css">
+</head>
+
+<body>
+
+
+    <div id="sectionflat">
+
+
+        <div class="bg-image d-flex flex-column justify-content-end">
+            <div class="back-color">
+                <h2>Sunrise Avenue</h2>
+                <p>Move to what moves you</p>
+                <div class="align">
+                    <button onclick="display('sectionpage')" class="btn btn-warning">Book Flat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionpage">
+        <div class="sec-back-image">
+            <h3 class="head">Sunrise Avenue</h3>
+            <div class="align-center sec-back-color d-flex flex-row pad">
+                <img class="image-width" src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" />
+                <div class="pad" onclick="display('sectionbuyone')">
+                    <h2>1BHK Flat</h2>
+                    <p> This flst is one of the best flat and also it is approved by our india government</p>
+                </div>
+            </div>
+            <div class="align-center sec-back-color d-flex flex-row pad">
+                <img class="image-width" src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" />
+                <div class="pad" onclick="display('sectionbuytwo')">
+                    <h2>2BHK Flat</h2>
+                    <p> This flst is one of the best flat and also it is approved by our india government</p>
+                </div>
+            </div>
+            <div class="align-center sec-back-color d-flex flex-row pad">
+                <img class="image-width" src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" />
+                <div class="pad" onclick="display('sectionbuythree')">
+                    <h2>3BHK Flat</h2>
+                    <p> This flst is one of the best flat and also it is approved by our india government</p>
+                </div>
+            </div>
+            <div>
+                <button onclick="display('sectionflat')" class="btn btn-warning">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionbuyone">
+        <img class="third-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" />
+        <div class="third-back-color">
+            <h2 class="head">Rs 1999/-</h2>
+            <div class="d-flex flex-row pad">
+                <img class="locoation" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" />
+                <p class="para"> D/N food street,indore</p>
+            </div>
+            <hr class="line" />
+            <h2 class="head">Description</h2>
+            <p class="para">if you want a better home come to your flats</p>
+            <div class="align">
+                <button onclick="display('sectionflat')" class="btn btn-warning">Confirm</button>
+                <button onclick="display('sectionpage')" class="btn btn-warning">back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionbuytwo">
+        <img class="third-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" />
+        <div class="third-back-color">
+            <h2 class="head">Rs 2200/-</h2>
+            <div class="d-flex flex-row pad">
+                <img class="locoation" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" />
+                <p class="para"> D/N food street,indore</p>
+            </div>
+            <hr class="line" />
+            <h2 class="head">Description</h2>
+            <p class="para">if you want a better home come to your flats</p>
+            <div class="align">
+                <button onclick="display('sectionflat')" class="btn btn-warning">Confirm</button>
+                <button onclick="display('sectionpage')" class="btn btn-warning">back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="sectionbuythree">
+        <img class="third-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" />
+        <div class="third-back-color">
+            <h2 class="head">Rs 3000/-</h2>
+            <div class="d-flex flex-row pad">
+                <img class="locoation" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" />
+                <p class="para"> D/N food street,indore</p>
+            </div>
+            <hr class="line" />
+            <h2 class="head">Description</h2>
+            <p class="para">if you want a better home come to your flats</p>
+            <div class="align">
+                <button onclick="display('sectionflat')" class="btn btn-warning">Confirm</button>
+                <button onclick="display('sectionpage')" class="btn btn-warning">back</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
